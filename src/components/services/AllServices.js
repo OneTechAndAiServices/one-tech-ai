@@ -160,7 +160,7 @@ export const AllServices = () => {
       sx={{
         px: { xs: 2, sm: 4, md: 8 },
         py: { xs: 6, sm: 8 },
-        overflowX: 'hidden', // ✅ Prevent horizontal scroll
+        overflowX: 'hidden', 
       }}
     >
       <Grid container spacing={4}>
