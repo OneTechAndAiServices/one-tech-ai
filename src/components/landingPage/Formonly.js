@@ -45,8 +45,8 @@ export default function FormOnly() {
             mx:"auto",
             my: 2,
           p: 2,
-          mx:3,
-          px:3,
+          mx:[1,1,3],
+          px:[1,1,3],
           borderRadius: "25px",
           bgcolor: '#fff',
         }}
