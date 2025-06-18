@@ -58,7 +58,7 @@ export default function ServicesSection() {
   return (
     <Box>
 
-      <Box
+      {/* <Box
         py={8}
         px={2}
         textAlign="center"
@@ -67,29 +67,7 @@ export default function ServicesSection() {
         alignItems="center"
         justifyContent="center"
       >
-        {/* <Chip
-          icon={
-            <Image
-              src="/services-icon.png" 
-              alt="Our Services"
-              width={20}
-              height={20}
-              style={{height:"25px",width:"25px"}}
-            />
-          }
-          label="Our Services"
-          sx={{
-            bgcolor: "#FFFF",
-            border:"1px solid lightgray",
-            color: "#000",
-            fontSize:"15px",
-            fontWeight: 500,
-            mb: 2,
-            px: 1.5,
-            py: 0.5,
-            borderRadius: "16px",
-          }}
-        /> */}
+       
 
         <Typography variant="h4" fontWeight="bold" sx={{
           fontSize: "60px", fontWeight: 500, bgcolor: "black", background: 'linear-gradient(90deg, rgba(244, 201, 97, 1) 0%, rgba(222, 107, 167, 1) 50%, rgba(72, 202, 228, 1) 100%)',
@@ -110,7 +88,7 @@ export default function ServicesSection() {
         >
           We provide cutting-edge AI services designed to help businesses harness the power of artificial intelligence for smarter, faster, and more efficient operations.
         </Typography>
-      </Box>
+      </Box> */}
 
 
       <Box px={[2, 4, 10]} py={8}>
@@ -225,7 +203,7 @@ export default function ServicesSection() {
           </Grid>
         </Grid>
       </Box>
-      <AllServices />
+      {/* <AllServices /> */}
       {/* <ServicesProjects /> */}
     </Box>
 
