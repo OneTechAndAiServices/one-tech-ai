@@ -226,7 +226,7 @@ export default function ServicesSection() {
         </Grid>
       </Box>
       <AllServices />
-      <ServicesProjects />
+      {/* <ServicesProjects /> */}
     </Box>
 
   );
