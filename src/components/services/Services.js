@@ -58,7 +58,7 @@ export default function ServicesSection() {
   return (
     <Box>
 
-      {/* <Box
+      <Box
         py={8}
         px={2}
         textAlign="center"
@@ -74,7 +74,8 @@ export default function ServicesSection() {
           WebkitBackgroundClip: 'text',
           color: 'transparent',
         }}
-        data-aos="fade-right">
+        // data-aos="fade-right"
+        >
           Services
         </Typography>
 
@@ -84,11 +85,11 @@ export default function ServicesSection() {
           maxWidth={600}
           mx="auto"
           lineHeight={1.7}
-          data-aos="fade-left"
+          // data-aos="fade-left"
         >
           We provide cutting-edge AI services designed to help businesses harness the power of artificial intelligence for smarter, faster, and more efficient operations.
         </Typography>
-      </Box> */}
+      </Box>
 
 
       <Box px={[2, 4, 10]} py={8}>
