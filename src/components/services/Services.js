@@ -203,8 +203,8 @@ export default function ServicesSection() {
           </Grid>
         </Grid>
       </Box>
-      {/* <AllServices /> */}
-      {/* <ServicesProjects /> */}
+      <AllServices />
+      <ServicesProjects />
     </Box>
 
   );
