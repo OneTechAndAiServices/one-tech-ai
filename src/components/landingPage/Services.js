@@ -375,6 +375,7 @@ const ServicesSection = () => {
       {/* Read More Button */}
       <Box textAlign="center" mt={6}>
         <Button
+        href="/services/"
           variant="contained"
           sx={{
             borderRadius: 20,

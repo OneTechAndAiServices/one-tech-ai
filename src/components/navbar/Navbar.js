@@ -99,6 +99,7 @@ export default function Navbar() {
           {isMobile ? (
             <>
               <IconButton
+                sx={{mr:2}}
                 edge="start"
                 color="inherit"
                 onClick={() => setDrawerOpen(true)}

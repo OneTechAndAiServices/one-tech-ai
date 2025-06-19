@@ -79,6 +79,7 @@ const Banner = () => {
             We'll take your ideas and turn them into impactful results that drive growth.
           </Typography>
           <Button
+          href='/contact-us/'
           endIcon={<ArrowOutwardIcon sx={{bgcolor:'white', color:'black', borderRadius:10, padding:1}}/>}
             variant="outlined" 
             sx={{ borderRadius: '60px', color: 'white', borderColor: 'white' }}

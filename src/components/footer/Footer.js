@@ -1,7 +1,8 @@
 import React from 'react';
-import { Box, Typography, Grid, Link, IconButton } from '@mui/material';
+import { Box, Typography, Grid,  IconButton } from '@mui/material';
 import { EmailOutlined, Facebook, Instagram, LinkedIn, PhoneOutlined } from '@mui/icons-material';
 import Image from 'next/image';
+import Link from 'next/link';
 
 const Footer = () => {
   return (
@@ -49,18 +50,18 @@ const Footer = () => {
           <Typography fontWeight="bold" mb={1}>
             Quick Links
           </Typography>
-          <Link href="#" underline="none" color="inherit" display="block">
+          <Link href="/" underline="none" color="inherit" display="block">
             <Typography variant="body2" mb={1}>Home</Typography>
           </Link>
-          <Link href="#" underline="none" color="inherit" display="block">
+          <Link href="/" underline="none" color="inherit" display="block">
             <Typography variant="body2" mb={1}>About Us</Typography>
           </Link>
-          <Link href="#" underline="none" color="inherit" display="block">
+          <Link href="/services/" underline="none" color="inherit" display="block">
             <Typography variant="body2" mb={1}>Services</Typography>
           </Link>
-          <Link href="#" underline="none" color="inherit" display="block">
+          {/* <Link href="#" underline="none" color="inherit" display="block">
             <Typography variant="body2" mb={1}>Company</Typography>
-          </Link>
+          </Link> */}
           
           <Link href="/login" underline="none" color="inherit" display="block">
             <Typography variant="body2" mb={1}>Login</Typography>
@@ -71,16 +72,16 @@ const Footer = () => {
           <Typography fontWeight="bold" mb={1}>
             Site Map
           </Typography>
-          <Link href="#" underline="none" color="inherit" display="block">
+          {/* <Link href="#" underline="none" color="inherit" display="block">
             <Typography variant="body2" mb={1}>Career</Typography>
           </Link>
           <Link href="#" underline="none" color="inherit" display="block">
             <Typography variant="body2" mb={1}>Internships</Typography>
-          </Link>
-          <Link href="#" underline="none" color="inherit" display="block">
+          </Link> */}
+          <Link href="/blogs/" underline="none" color="inherit" display="block">
             <Typography variant="body2" mb={1}>News and Blogs</Typography>
           </Link>
-          <Link href="#" underline="none" color="inherit" display="block">
+          <Link href="/e-learning/" underline="none" color="inherit" display="block">
             <Typography variant="body2" mb={1}>E-learning</Typography>
           </Link>
         </Grid>
@@ -196,9 +197,18 @@ const Footer = () => {
         }}
       >
         <Box display='flex'>
+          <Link href='/privacy-policy'>
         <Typography mx={1} fontSize={'14px'}>Privacy Policy</Typography>
-        <Typography mx={1} fontSize={'14px'}>Cookies Policy</Typography>
-        <Typography mx={1} fontSize={'14px'}>Terms Of Use</Typography>
+          </Link>
+
+           <Link href='/cookie-policy'>
+           <Typography mx={1} fontSize={'14px'}>Cookies Policy</Typography>
+           </Link>
+
+           <Link href='/terms-of-use'>
+           
+           <Typography mx={1} fontSize={'14px'}>Terms Of Use</Typography>
+           </Link>
         </Box>
         <Typography fontSize={'14px'}>© One Tech and AI UK Corporation, All Rights Reserved</Typography>
 

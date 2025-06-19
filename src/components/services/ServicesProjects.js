@@ -198,6 +198,7 @@ export const ServicesProjects = () => {
               </Typography>
 
               <Button
+               href='/products/'
                 variant="outlined"
                 size="large"
                 color="inherit"

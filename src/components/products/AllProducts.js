@@ -250,6 +250,7 @@ export default function AllProducts() {
                 )}
 
                 <Button
+                  href='/contact-us/'
                   variant="outlined"
                   size="small"
                   color="inherit"
