@@ -95,19 +95,19 @@ const Banner = () => {
 
           </Grid>
           <Grid size={{xs:6, md:3}}>
-          <Typography variant="h6" fontSize={"25px"} fontWeight={400}>50K</Typography>
+          <Typography variant="h6" fontSize={"25px"} fontWeight={400}>25+</Typography>
           <Typography variant="body2" fontSize={"15px"} fontWeight={400}>Complete Projects</Typography>
 
           </Grid>
           <Grid size={{xs:6, md:2}}>
-          <Typography variant="h6"  fontSize={"25px"} fontWeight={400}>50+</Typography>
+          <Typography variant="h6"  fontSize={"25px"} fontWeight={400}>20+</Typography>
           <Typography variant="body2" fontSize={"15px"} fontWeight={400}>Staff</Typography>
 
           </Grid>
-          <Grid size={{xs:6, md:2.5}} sx>
+          {/* <Grid size={{xs:6, md:2.5}} sx>
           <Typography variant="h6" fontSize={"25px"} fontWeight={400}>50K</Typography>
           <Typography variant="body2" fontSize={"15px"} fontWeight={400}>Complete Projects</Typography>
-          </Grid>
+          </Grid> */}
 
         </Grid>
       </Box>
